@@ -7,8 +7,10 @@
 // Learn life-cycle callbacks:
 //  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
-var config=require('config');
-var game_scene=require('game_scene');
+let config = require('config');
+let game_scene = require('game_scene');
+let userAgent = require('useragent');
+
 cc.Class({
     extends: cc.Component,
 
@@ -43,7 +45,7 @@ cc.Class({
         };
     },
     toggleSound(ev) {
-        var v = ev.isChecked ? 0 : 1;
+        let v = ev.isChecked ? 0 : 1;
         cc.audioEngine.setEffectsVolume(v);
         cc.audioEngine.setMusicVolume(v);
     },
@@ -57,7 +59,7 @@ cc.Class({
         /* if (window.sharedCanvas) {
             this.tex.initWithElement(window.sharedCanvas);
             this.tex.handleLoadedTexture();
-            var sub_canvas = this.node.getChildByName('sub_canvas').getComponent(cc.Sprite);
+            let sub_canvas = this.node.getChildByName('sub_canvas').getComponent(cc.Sprite);
             sub_canvas.spriteFrame = new cc.SpriteFrame(this.tex);
         } */
     },
@@ -68,11 +70,11 @@ cc.Class({
         }
         
         if (window.wx) {
-            /* var node=this.node.getChildByName('sub_canvas');
-            var sub_canvas = node.getComponent(cc.Sprite);
+            /* let node=this.node.getChildByName('sub_canvas');
+            let sub_canvas = node.getComponent(cc.Sprite);
             sub_canvas.spriteFrame = null;
 
-            var size = cc.view.getVisibleSize();
+            let size = cc.view.getVisibleSize();
             window.sharedCanvas.width = 850;
             window.sharedCanvas.height = 500;
             node.setScale(size.width/850); 
@@ -93,18 +95,18 @@ cc.Class({
     loadAni() {
         if (config.game.recommend) {
             config.game.recommend.forEach(v => {
-                var ins = { appId: v.appId, frames: [], host: this };
-                var reg = v.images.match(/(.+\/)([^/]+)\..+(\d+)-(\d+)/);
-                var path = reg[1], name = reg[2], low = reg[3], up = reg[4];
+                let ins = { appId: v.appId, frames: [], host: this };
+                let reg = v.images.match(/(.+\/)([^/]+)\..+(\d+)-(\d+)/);
+                let path = reg[1], name = reg[2], low = reg[3], up = reg[4];
                 ins.frameLength = up - low + 1;
-                for (var i = low; i <= up; i++) {
+                for (let i = low; i <= up; i++) {
                     cc.loader.load(`${path}${name}${i}.png`, function (err, img) {
                         this.frames.push(new cc.SpriteFrame(img));
                         if (this.frames.length == this.frameLength) {
-                            var clip = new cc.AnimationClip();
+                            let clip = new cc.AnimationClip();
                             clip.name = this.appId;
-                            var arr = [], framegap = config.game.frameInterval || 0.2;
-                            for (var m = 0; m < this.frameLength; m++) {
+                            let arr = [], framegap = config.game.frameInterval || 0.2;
+                            for (let m = 0; m < this.frameLength; m++) {
                                 arr.push({ "frame": m * framegap, "value": this.frames[m] });
                             }
                             clip.curveData = { comps: { "cc.Sprite": { spriteFrame: arr } } };
@@ -130,39 +132,21 @@ cc.Class({
     start () {
         this.curPlayIndex = 0;
         this.aniCom = this.node.getChildByName('recommend').getComponent(cc.Animation);
-        cc.loader.loadRes('config', (err, data) => {
-            console.log("load config err:", err);
-            if (!err || err.status == 0 || err.status == 200) {
-                config.game = JSON.parse(data);
-            }
 
-            var xhr = new XMLHttpRequest();
-            xhr.onreadystatechange =  ()=> {
-                if (xhr.readyState == 4 && (xhr.status == 200 || xhr.status == 0)) {
-                    console.log('config change to server!');
-                    config.game = JSON.parse(xhr.responseText);
-                    if ( config.version < config.game.version) {
-                        config.game.lure = config.game.oldVersion_lure;
-                        console.log('user old version lure!');
-                    } else {
-                        console.log('user new version lure!');
-                    }
-
-                    if (config.game.lure) {
-                        this.loadAni();
-                    }
-                }
-            };
-            xhr.open("GET", "https://config.023mama.com/static/config/lucky666/config.txt", true);
-            xhr.send();
+        config.load(function () {
+            userAgent.launch();
         });
 
         //this.tex = new cc.Texture2D();
         if(window.wx){
-            //var options=wx.getLaunchOptionsSync();
+            //let options=wx.getLaunchOptionsSync();
             wx.onShow(this.handleOptions);
         }
         this.scheduleOnce(this.show, 1.5);
     },
+
+    debugStoreRecord: function () {
+      userAgent.roundEnded(100500);
+    }
     // update (dt) {},
 });

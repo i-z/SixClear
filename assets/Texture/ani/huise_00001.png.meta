@@ -1,13 +1,18 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.5",
   "uuid": "b3022538-7c73-47f2-89a6-83c3af72c9f3",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 211,
+  "height": 238,
+  "platformSettings": {},
   "subMetas": {
     "huise_00001": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "f7583629-cfef-4ee2-b13d-5af7fd16edbb",
       "rawTextureUuid": "b3022538-7c73-47f2-89a6-83c3af72c9f3",
       "trimType": "auto",

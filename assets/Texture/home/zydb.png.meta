@@ -1,13 +1,18 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.5",
   "uuid": "a2396c0a-1243-4db1-a4ab-87b207504cfd",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 148,
+  "height": 207,
+  "platformSettings": {},
   "subMetas": {
     "zydb": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "50a004ff-fd30-421d-9034-9c9b05b1aab1",
       "rawTextureUuid": "a2396c0a-1243-4db1-a4ab-87b207504cfd",
       "trimType": "auto",

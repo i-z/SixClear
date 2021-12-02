@@ -77,6 +77,7 @@ cc.Class({
        ins.runAction(cc.sequence(cc.spawn(cc.scaleTo(.5,.3),cc.moveTo(.5,cc.v2(-425,473))),cc.removeSelf(true)));
     },
     addFortune(num, pos) {
+        this.node.emit("ADD_POINTS", num)
         config.fortune += num;
         //this.fortuneLabel.string = config.fortune;
 
@@ -162,7 +163,6 @@ cc.Class({
             this.manager.clearAll();
             this.manager.generateChess();
         }, .01);
-        config.fortune = 0;
         this.fortuneLabel.string = 0;
         this.useNum = [300, 500, 800, 1000, Number.MAX_VALUE];
         this.updateToolState();

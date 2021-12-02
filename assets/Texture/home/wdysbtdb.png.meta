@@ -1,13 +1,18 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.5",
   "uuid": "a82e0a67-5673-4ac0-810f-43b402de03e1",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 634,
+  "height": 193,
+  "platformSettings": {},
   "subMetas": {
     "wdysbtdb": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "3f67a8c7-66a8-4f27-ad37-7d852e927b4d",
       "rawTextureUuid": "a82e0a67-5673-4ac0-810f-43b402de03e1",
       "trimType": "auto",

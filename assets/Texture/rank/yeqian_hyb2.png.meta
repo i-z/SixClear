@@ -1,13 +1,18 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.5",
   "uuid": "2ce381ac-a89e-43db-ae3b-d287164aa190",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 214,
+  "height": 116,
+  "platformSettings": {},
   "subMetas": {
     "yeqian_hyb2": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "2bc8868f-4263-4818-8681-d999e0c42991",
       "rawTextureUuid": "2ce381ac-a89e-43db-ae3b-d287164aa190",
       "trimType": "auto",

@@ -1,13 +1,18 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.5",
   "uuid": "87d1e2f9-6973-45db-8c94-c8c36569e0e9",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 306,
+  "height": 77,
+  "platformSettings": {},
   "subMetas": {
     "dajidali": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "27813cae-5431-4f29-9b1e-50f532c75576",
       "rawTextureUuid": "87d1e2f9-6973-45db-8c94-c8c36569e0e9",
       "trimType": "auto",

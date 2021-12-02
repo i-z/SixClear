@@ -1,0 +1,18 @@
+info face="FilmotypeMajor" size=172 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=2,2
+common lineHeight=173 base=129 scaleW=512 scaleH=512 pages=1 packed=0
+page id=0 file="FilmotypeMajor.png"
+chars count=14
+char id=32     x=501   y=317   width=0     height=0     xoffset=0     yoffset=130   xadvance=38    page=0 chnl=0 letter="space"
+char id=48     x=241   y=160   width=118   height=154   xoffset=5     yoffset=-22   xadvance=94    page=0 chnl=0 letter="0"
+char id=49     x=308   y=317   width=74    height=152   xoffset=6     yoffset=-23   xadvance=55    page=0 chnl=0 letter="1"
+char id=50     x=2     y=160   width=107   height=155   xoffset=5     yoffset=-25   xadvance=84    page=0 chnl=0 letter="2"
+char id=51     x=129   y=2     width=116   height=156   xoffset=4     yoffset=-24   xadvance=92    page=0 chnl=0 letter="3"
+char id=52     x=111   y=160   width=128   height=154   xoffset=2     yoffset=-25   xadvance=100   page=0 chnl=0 letter="4"
+char id=53     x=363   y=2     width=115   height=155   xoffset=4     yoffset=-23   xadvance=90    page=0 chnl=0 letter="5"
+char id=54     x=361   y=160   width=116   height=154   xoffset=5     yoffset=-24   xadvance=92    page=0 chnl=0 letter="6"
+char id=55     x=247   y=2     width=114   height=156   xoffset=2     yoffset=-23   xadvance=83    page=0 chnl=0 letter="7"
+char id=56     x=384   y=317   width=115   height=151   xoffset=4     yoffset=-20   xadvance=90    page=0 chnl=0 letter="8"
+char id=57     x=2     y=317   width=113   height=153   xoffset=6     yoffset=-22   xadvance=90    page=0 chnl=0 letter="9"
+char id=69     x=117   y=317   width=98    height=153   xoffset=9     yoffset=-25   xadvance=77    page=0 chnl=0 letter="E"
+char id=76     x=217   y=317   width=89    height=153   xoffset=9     yoffset=-24   xadvance=66    page=0 chnl=0 letter="L"
+char id=86     x=2     y=2     width=125   height=156   xoffset=1     yoffset=-26   xadvance=93    page=0 chnl=0 letter="V"

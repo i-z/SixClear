@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "bde8ee4e-a6df-4049-8fef-e73d2ec9027a",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 256,
+  "height": 192,
+  "platformSettings": {},
+  "subMetas": {
+    "LotCost-ipadhd": {
+      "ver": "1.0.4",
+      "uuid": "57b86fdf-f998-4160-b886-129a8870fd8f",
+      "rawTextureUuid": "bde8ee4e-a6df-4049-8fef-e73d2ec9027a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -5.5,
+      "offsetY": 0.5,
+      "trimX": 2,
+      "trimY": 4,
+      "width": 241,
+      "height": 183,
+      "rawWidth": 256,
+      "rawHeight": 192,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

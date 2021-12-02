@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Leader 1",
+    "score": 1235
+  },
+  {
+    "name": "Peter Batareya 1",
+    "score": 999999999999
+  },
+  {
+    "name": "Trup Trupeckiy",
+    "score": 666
+  },
+  {
+    "name": "Moroz 1",
+    "score": 100500
+  }
+]

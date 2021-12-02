@@ -1,13 +1,18 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.5",
   "uuid": "9ccd9615-5764-4971-9e96-5ea2079dea71",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 304,
+  "height": 77,
+  "platformSettings": {},
   "subMetas": {
     "meiriqiandao": {
-      "ver": "1.0.3",
+      "ver": "1.0.4",
       "uuid": "654caefc-1087-47f7-97fb-edd03c350c89",
       "rawTextureUuid": "9ccd9615-5764-4971-9e96-5ea2079dea71",
       "trimType": "auto",
