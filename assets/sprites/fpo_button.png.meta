@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "f7d3a013-3b81-4312-b2a8-0aaf7effb2fe",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "fpo_button": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "cf203acd-8ca4-45c8-8d76-447723d65b47",
+      "importer": "sprite-frame",
       "rawTextureUuid": "f7d3a013-3b81-4312-b2a8-0aaf7effb2fe",
       "trimType": "auto",
       "trimThreshold": 1,

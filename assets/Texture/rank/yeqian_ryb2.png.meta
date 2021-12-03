@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "b6900cab-d4ec-4448-9dc7-80937f5383ff",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "yeqian_ryb2": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "ef825742-2149-4606-bc80-84f62fde8359",
+      "importer": "sprite-frame",
       "rawTextureUuid": "b6900cab-d4ec-4448-9dc7-80937f5383ff",
       "trimType": "auto",
       "trimThreshold": 1,

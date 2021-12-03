@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "a2396c0a-1243-4db1-a4ab-87b207504cfd",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "zydb": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "50a004ff-fd30-421d-9034-9c9b05b1aab1",
+      "importer": "sprite-frame",
       "rawTextureUuid": "a2396c0a-1243-4db1-a4ab-87b207504cfd",
       "trimType": "auto",
       "trimThreshold": 1,

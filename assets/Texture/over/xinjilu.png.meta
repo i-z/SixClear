@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "814ea656-08fe-4b82-bc7d-480841459cd1",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "xinjilu": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "68b77886-245c-4978-ab5d-5c0b70f97fae",
+      "importer": "sprite-frame",
       "rawTextureUuid": "814ea656-08fe-4b82-bc7d-480841459cd1",
       "trimType": "auto",
       "trimThreshold": 1,

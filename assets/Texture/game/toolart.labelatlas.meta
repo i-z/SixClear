@@ -1,6 +1,7 @@
 {
-  "ver": "1.1.0",
+  "ver": "1.1.2",
   "uuid": "50a1faf7-92a7-482c-82d5-41d67cf0462f",
+  "importer": "label-atlas",
   "itemWidth": 36,
   "itemHeight": 44,
   "startChar": "/",

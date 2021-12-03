@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "b4e7886c-7a64-4318-81a8-d5ee85309807",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "huise_00009": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "74bffb9a-f385-4268-ba12-1cc9b0ebefed",
+      "importer": "sprite-frame",
       "rawTextureUuid": "b4e7886c-7a64-4318-81a8-d5ee85309807",
       "trimType": "auto",
       "trimThreshold": 1,

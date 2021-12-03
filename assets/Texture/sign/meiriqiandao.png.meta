@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "9ccd9615-5764-4971-9e96-5ea2079dea71",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "meiriqiandao": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "654caefc-1087-47f7-97fb-edd03c350c89",
+      "importer": "sprite-frame",
       "rawTextureUuid": "9ccd9615-5764-4971-9e96-5ea2079dea71",
       "trimType": "auto",
       "trimThreshold": 1,

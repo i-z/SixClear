@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "6f88b6b7-5cdf-4830-a003-3637bda1175c",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "fengexian": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "ef272061-b913-4f42-9ad3-fd6fd49081cf",
+      "importer": "sprite-frame",
       "rawTextureUuid": "6f88b6b7-5cdf-4830-a003-3637bda1175c",
       "trimType": "auto",
       "trimThreshold": 1,

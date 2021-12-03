@@ -1,6 +1,7 @@
 {
-  "ver": "2.3.5",
+  "ver": "2.3.7",
   "uuid": "a82e0a67-5673-4ac0-810f-43b402de03e1",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -12,8 +13,9 @@
   "platformSettings": {},
   "subMetas": {
     "wdysbtdb": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "3f67a8c7-66a8-4f27-ad37-7d852e927b4d",
+      "importer": "sprite-frame",
       "rawTextureUuid": "a82e0a67-5673-4ac0-810f-43b402de03e1",
       "trimType": "auto",
       "trimThreshold": 1,
